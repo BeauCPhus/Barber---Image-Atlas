@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "status": "pilot",
+  "note": "Interpretive Motion Atlas metadata. Barber source text remains in mechanisms.json and is not modified.",
+  "entries": {
+    "30": {
+      "plate": 2,
+      "numbers": [
+        30
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "position object at arbitrary angle"
+      ],
+      "behavior": [
+        "fixed pivot",
+        "friction lock"
+      ]
+    },
+    "33": {
+      "plate": 3,
+      "numbers": [
+        33,
+        34
+      ],
+      "motion": [
+        "rotation",
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "transmit rotation between angled axes"
+      ],
+      "behavior": [
+        "universal joint"
+      ]
+    },
+    "131": {
+      "plate": 8,
+      "numbers": [
+        131,
+        132,
+        133
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "intermittent"
+      ],
+      "purpose": [
+        "generate vertical motion",
+        "shape motion profile"
+      ],
+      "behavior": [
+        "cam constrained"
+      ]
+    },
+    "141": {
+      "plate": 8,
+      "numbers": [
+        141
+      ],
+      "motion": [
+        "rotation",
+        "oscillation",
+        "quick return"
+      ],
+      "purpose": [
+        "convert rotation to oscillation",
+        "unequal stroke timing"
+      ],
+      "behavior": [
+        "slot constrained",
+        "moving pivot"
+      ]
+    },
+    "143": {
+      "plate": 9,
+      "numbers": [
+        143
+      ],
+      "motion": [
+        "rotation",
+        "oscillation",
+        "intermittent"
+      ],
+      "purpose": [
+        "generate irregular motion",
+        "shape motion profile"
+      ],
+      "behavior": [
+        "slot constrained"
+      ]
+    },
+    "144": {
+      "plate": 9,
+      "numbers": [
+        144
+      ],
+      "motion": [
+        "rotation",
+        "compound X+Y",
+        "elliptical path"
+      ],
+      "purpose": [
+        "generate curved path"
+      ],
+      "behavior": [
+        "eccentric",
+        "slot constrained"
+      ]
+    },
+    "153": {
+      "plate": 9,
+      "numbers": [
+        153
+      ],
+      "motion": [
+        "rotation",
+        "oscillation"
+      ],
+      "purpose": [
+        "convert rotation to oscillation"
+      ],
+      "behavior": [
+        "cam constrained"
+      ]
+    },
+    "163": {
+      "plate": 10,
+      "numbers": [
+        163
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "reciprocating"
+      ],
+      "purpose": [
+        "convert rotation to reciprocation",
+        "automatic reversal"
+      ],
+      "behavior": [
+        "screw constrained",
+        "self-reversing"
+      ]
+    },
+    "164": {
+      "plate": 10,
+      "numbers": [
+        164
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "reciprocating"
+      ],
+      "purpose": [
+        "convert rotation to reciprocation"
+      ],
+      "behavior": [
+        "eccentric",
+        "roller constrained"
+      ]
+    },
+    "186": {
+      "plate": 11,
+      "numbers": [
+        186
+      ],
+      "motion": [
+        "rotation",
+        "reciprocating"
+      ],
+      "purpose": [
+        "increase travel"
+      ],
+      "behavior": [
+        "eccentric",
+        "lever amplification"
+      ]
+    },
+    "188": {
+      "plate": 11,
+      "numbers": [
+        188
+      ],
+      "motion": [
+        "rotation",
+        "variable stroke"
+      ],
+      "purpose": [
+        "vary travel"
+      ],
+      "behavior": [
+        "eccentric",
+        "adjustable"
+      ]
+    },
+    "219": {
+      "plate": 12,
+      "numbers": [
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "compound steering"
+      ],
+      "purpose": [
+        "follow curved path",
+        "coordinate multiple bodies"
+      ],
+      "behavior": [
+        "link constrained",
+        "articulated"
+      ]
+    },
+    "284": {
+      "plate": 16,
+      "numbers": [
+        284
+      ],
+      "motion": [
+        "reciprocating",
+        "one-way rotation"
+      ],
+      "purpose": [
+        "one-way drive",
+        "free return"
+      ],
+      "behavior": [
+        "cam constrained",
+        "overrunning"
+      ]
+    },
+    "401": {
+      "plate": 25,
+      "numbers": [
+        401
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "approx straight line"
+      ],
+      "purpose": [
+        "generate straight-line path"
+      ],
+      "behavior": [
+        "link constrained",
+        "moving pivot"
+      ]
+    },
+    "409": {
+      "plate": 25,
+      "numbers": [
+        409
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "reciprocating"
+      ],
+      "purpose": [
+        "convert rotation to reciprocation"
+      ],
+      "behavior": [
+        "cam constrained"
+      ]
+    },
+    "423": {
+      "plate": 26,
+      "numbers": [
+        423
+      ],
+      "motion": [
+        "rotation",
+        "translation",
+        "reciprocating",
+        "automatic reversal"
+      ],
+      "purpose": [
+        "convert rotation to reciprocation",
+        "reverse at endpoints"
+      ],
+      "behavior": [
+        "rack and pinion",
+        "guided"
+      ]
+    },
+    "424": {
+      "plate": 26,
+      "numbers": [
+        424
+      ],
+      "motion": [
+        "oscillation",
+        "translation"
+      ],
+      "purpose": [
+        "couple oscillating and reciprocating bodies"
+      ],
+      "behavior": [
+        "sliding joint",
+        "link constrained"
+      ]
+    },
+    "427": {
+      "plate": 26,
+      "numbers": [
+        427
+      ],
+      "motion": [
+        "rotation",
+        "oscillation"
+      ],
+      "purpose": [
+        "convert rotation to oscillation"
+      ],
+      "behavior": [
+        "geared",
+        "link constrained"
+      ]
+    },
+    "439": {
+      "plate": 27,
+      "numbers": [
+        439
+      ],
+      "motion": [
+        "rotation",
+        "translation"
+      ],
+      "purpose": [
+        "increase force",
+        "progressive force"
+      ],
+      "behavior": [
+        "compound lever",
+        "link constrained"
+      ]
+    },
+    "728": {
+      "plate": 43,
+      "numbers": [
+        728
+      ],
+      "motion": [
+        "rotation",
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "transmit motion through angular misalignment"
+      ],
+      "behavior": [
+        "ball joint",
+        "crank"
+      ]
+    },
+    "738": {
+      "plate": 44,
+      "numbers": [
+        738
+      ],
+      "motion": [
+        "rotation",
+        "intermittent",
+        "reversible"
+      ],
+      "purpose": [
+        "intermittent feed",
+        "reverse direction"
+      ],
+      "behavior": [
+        "segment gear"
+      ]
+    },
+    "825": {
+      "plate": 48,
+      "numbers": [
+        825
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "self-align bearing"
+      ],
+      "behavior": [
+        "ball and socket",
+        "self-aligning"
+      ]
+    },
+    "893": {
+      "plate": 51,
+      "numbers": [
+        893,
+        894
+      ],
+      "motion": [
+        "oscillation",
+        "translation"
+      ],
+      "purpose": [
+        "allow sliding while rocking"
+      ],
+      "behavior": [
+        "sliding joint",
+        "swivel"
+      ]
+    },
+    "947": {
+      "plate": 54,
+      "numbers": [
+        947
+      ],
+      "motion": [
+        "rotation",
+        "vertical translation",
+        "compound R+Z"
+      ],
+      "purpose": [
+        "lift while opening",
+        "self-return"
+      ],
+      "behavior": [
+        "fixed pivot",
+        "gravity assisted",
+        "rising hinge"
+      ]
+    },
+    "948": {
+      "plate": 54,
+      "numbers": [
+        948
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "allow angular articulation"
+      ],
+      "behavior": [
+        "ball and socket"
+      ]
+    },
+    "954": {
+      "plate": 55,
+      "numbers": [
+        954
+      ],
+      "motion": [
+        "rotation",
+        "compound path"
+      ],
+      "purpose": [
+        "lay flat either side",
+        "clear obstruction"
+      ],
+      "behavior": [
+        "compound hinge",
+        "moving pivot"
+      ]
+    },
+    "955": {
+      "plate": 55,
+      "numbers": [
+        955
+      ],
+      "motion": [
+        "oscillation"
+      ],
+      "purpose": [
+        "low-friction rocking"
+      ],
+      "behavior": [
+        "knife edge",
+        "fixed pivot"
+      ]
+    },
+    "956": {
+      "plate": 55,
+      "numbers": [
+        956
+      ],
+      "motion": [
+        "rotation"
+      ],
+      "purpose": [
+        "self-center",
+        "self-return"
+      ],
+      "behavior": [
+        "cam constrained",
+        "spring assisted",
+        "roller"
+      ]
+    },
+    "960": {
+      "plate": 55,
+      "numbers": [
+        960
+      ],
+      "motion": [
+        "rotation"
+      ],
+      "purpose": [
+        "self-return"
+      ],
+      "behavior": [
+        "toggle",
+        "spring assisted"
+      ]
+    },
+    "965": {
+      "plate": 55,
+      "numbers": [
+        965
+      ],
+      "motion": [
+        "rotation",
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "transmit rotation between angled axes"
+      ],
+      "behavior": [
+        "universal joint"
+      ]
+    },
+    "1056": {
+      "plate": 60,
+      "numbers": [
+        1056
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "allow angular misalignment"
+      ],
+      "behavior": [
+        "ball and socket"
+      ]
+    },
+    "1078": {
+      "plate": 61,
+      "numbers": [
+        1078
+      ],
+      "motion": [
+        "rotation",
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "transmit rotation at variable angle"
+      ],
+      "behavior": [
+        "universal joint",
+        "swivel"
+      ]
+    },
+    "1147": {
+      "plate": 64,
+      "numbers": [
+        1147
+      ],
+      "motion": [
+        "reciprocating",
+        "intermittent rotation"
+      ],
+      "purpose": [
+        "convert reciprocation to intermittent rotation"
+      ],
+      "behavior": [
+        "ratchet"
+      ]
+    },
+    "1148": {
+      "plate": 65,
+      "numbers": [
+        1148
+      ],
+      "motion": [
+        "oscillation",
+        "intermittent rotation"
+      ],
+      "purpose": [
+        "convert oscillation to intermittent rotation"
+      ],
+      "behavior": [
+        "ratchet"
+      ]
+    },
+    "1196": {
+      "plate": 67,
+      "numbers": [
+        1196
+      ],
+      "motion": [
+        "rotation",
+        "oscillation",
+        "variable speed"
+      ],
+      "purpose": [
+        "quick return",
+        "vary velocity through stroke"
+      ],
+      "behavior": [
+        "moving pivot",
+        "slot constrained"
+      ]
+    },
+    "1299": {
+      "plate": 72,
+      "numbers": [
+        1299
+      ],
+      "motion": [
+        "translation",
+        "automatic reversal"
+      ],
+      "purpose": [
+        "reverse travel at endpoints"
+      ],
+      "behavior": [
+        "over-center",
+        "weighted lever"
+      ]
+    },
+    "1300": {
+      "plate": 73,
+      "numbers": [
+        1300
+      ],
+      "motion": [
+        "translation",
+        "automatic reversal"
+      ],
+      "purpose": [
+        "reverse travel at adjustable endpoints"
+      ],
+      "behavior": [
+        "trip stops",
+        "self-reversing"
+      ]
+    },
+    "1359": {
+      "plate": 76,
+      "numbers": [
+        1359
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "position object at arbitrary angle"
+      ],
+      "behavior": [
+        "universal centres",
+        "adjustable"
+      ]
+    },
+    "1448": {
+      "plate": 81,
+      "numbers": [
+        1448
+      ],
+      "motion": [
+        "rotation",
+        "reciprocating",
+        "reversible"
+      ],
+      "purpose": [
+        "reverse direction",
+        "vary output motion"
+      ],
+      "behavior": [
+        "slot constrained",
+        "moving fulcrum"
+      ]
+    },
+    "1607": {
+      "plate": 92,
+      "numbers": [
+        1607
+      ],
+      "motion": [
+        "rotation",
+        "variable stroke"
+      ],
+      "purpose": [
+        "vary throw"
+      ],
+      "behavior": [
+        "jointed crank",
+        "adjustable"
+      ]
+    },
+    "1608": {
+      "plate": 92,
+      "numbers": [
+        1608
+      ],
+      "motion": [
+        "rotation",
+        "variable stroke"
+      ],
+      "purpose": [
+        "vary throw"
+      ],
+      "behavior": [
+        "eccentric",
+        "adjustable"
+      ]
+    },
+    "1961": {
+      "plate": 114,
+      "numbers": [
+        1961
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "swing and reposition"
+      ],
+      "behavior": [
+        "ball and cup",
+        "adjustable"
+      ]
+    },
+    "1962": {
+      "plate": 114,
+      "numbers": [
+        1962
+      ],
+      "motion": [
+        "multi-axis rotation"
+      ],
+      "purpose": [
+        "swing and lock position"
+      ],
+      "behavior": [
+        "ball joint",
+        "friction lock"
+      ]
+    },
+    "1973": {
+      "plate": 115,
+      "numbers": [
+        1973
+      ],
+      "motion": [
+        "rotation",
+        "oscillation",
+        "intermittent",
+        "variable motion"
+      ],
+      "purpose": [
+        "shape arbitrary motion",
+        "intermittent output"
+      ],
+      "behavior": [
+        "cam constrained",
+        "lever"
+      ]
+    },
+    "2094": {
+      "plate": 123,
+      "numbers": [
+        2094
+      ],
+      "motion": [
+        "translation"
+      ],
+      "purpose": [
+        "quick position adjustment",
+        "lock position"
+      ],
+      "behavior": [
+        "eccentric",
+        "rack",
+        "quick release"
+      ]
+    },
+    "2298": {
+      "plate": 136,
+      "numbers": [
+        2298
+      ],
+      "motion": [
+        "rotation",
+        "compound path"
+      ],
+      "purpose": [
+        "reverse seat back",
+        "move pivot location"
+      ],
+      "behavior": [
+        "link hinge",
+        "moving pivot"
+      ]
+    },
+    "2299": {
+      "plate": 136,
+      "numbers": [
+        2299
+      ],
+      "motion": [
+        "rotation",
+        "360 degree rotation"
+      ],
+      "purpose": [
+        "swing through 360 degrees"
+      ],
+      "behavior": [
+        "flexible hinge"
+      ]
+    },
+    "2300": {
+      "plate": 136,
+      "numbers": [
+        2300
+      ],
+      "motion": [
+        "rotation",
+        "compound path"
+      ],
+      "purpose": [
+        "reverse door or shutter",
+        "move around obstruction"
+      ],
+      "behavior": [
+        "link hinge",
+        "moving pivot"
+      ]
+    },
+    "2304": {
+      "plate": 136,
+      "numbers": [
+        2304
+      ],
+      "motion": [
+        "rotation",
+        "360 degree rotation",
+        "compound path"
+      ],
+      "purpose": [
+        "swing through 360 degrees",
+        "move pivot location"
+      ],
+      "behavior": [
+        "intermediate member",
+        "compound hinge"
+      ]
+    },
+    "2328": {
+      "plate": 138,
+      "numbers": [
+        2328
+      ],
+      "motion": [
+        "oscillation",
+        "approx straight line",
+        "parallel motion"
+      ],
+      "purpose": [
+        "maintain guided path"
+      ],
+      "behavior": [
+        "link constrained",
+        "parallel motion"
+      ]
+    }
+  }
+}
